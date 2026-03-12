@@ -97,7 +97,7 @@ Power BI
 
 ---
 
-## Chris Van Niekerk
+## Author
 
 Chris van Niekerk  
-MS Data Science – University of Virginia
+
