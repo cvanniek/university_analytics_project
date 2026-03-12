@@ -8,7 +8,7 @@ using the U.S. Department of Education College Scorecard dataset.
 
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard./dashboard_preview.png)
+![Dashboard Preview](dashboards./dashboard_preview.png)
 
 ---
 
