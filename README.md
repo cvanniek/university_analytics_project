@@ -35,26 +35,28 @@ The Power BI dashboard includes:
 
 ---
 
-# Repository Structure
+## Repository Structure
 
+```
 university_analytics_project/
 
 ├── data/
-│ ├── gold_control_summary.csv
-│ ├── gold_institution_roi.csv
-│ ├── gold_locale_summary.csv
-│ └── gold_state_summary.csv
+│   ├── gold_control_summary.csv
+│   ├── gold_institution_roi.csv
+│   ├── gold_locale_summary.csv
+│   └── gold_state_summary.csv
 │
 ├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ └── 02_data_analysis.ipynb
+│   ├── 01_data_cleaning.ipynb
+│   └── 02_data_analysis.ipynb
 │
 ├── dashboard/
-│ ├── dashboard_preview.png
-│ └── university_value_dashboard.pbix
+│   ├── dashboard_preview.png
+│   └── university_value_dashboard.pbix
 │
 ├── README.md
 └── LICENSE
+```
 
 
 ---
