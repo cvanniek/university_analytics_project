@@ -35,18 +35,67 @@ The Power BI dashboard includes:
 
 ---
 
-## Tools Used
+# Repository Structure
 
-Power BI  
-Python  
-Pandas  
-Jupyter Notebook  
+university_analytics_project/
+
+├── data/
+│ ├── gold_control_summary.csv
+│ ├── gold_institution_roi.csv
+│ ├── gold_locale_summary.csv
+│ └── gold_state_summary.csv
+│
+├── notebooks/
+│ ├── 01_data_cleaning.ipynb
+│ └── 02_data_analysis.ipynb
+│
+├── dashboard/
+│ ├── dashboard_preview.png
+│ └── university_value_dashboard.pbix
+│
+├── README.md
+└── LICENSE
+
 
 ---
 
-## Dataset
+## Gold Analytical Tables
 
-U.S. Department of Education  
-College Scorecard Dataset
+The repository includes four **Gold-level analytical datasets** created during the data preparation stage.
+
+| Dataset | Description |
+|-------|-------------|
+| gold_institution_roi | Institution-level metrics including tuition, graduate earnings, and ROI |
+| gold_control_summary | Aggregated statistics by institution type (public, private nonprofit, for-profit) |
+| gold_locale_summary | Aggregated statistics by geographic locale |
+| gold_state_summary | Aggregated statistics by U.S. state |
+
+These datasets serve as the primary data sources for the Power BI dashboard.
+
+---
+
+## Original Dataset
+
+The full raw dataset used for this analysis is available from the U.S. Department of Education.
+
+**College Scorecard Dataset**
 
 https://collegescorecard.ed.gov/data/
+
+The raw dataset is very large, so only the processed analytical tables are included in this repository.
+
+---
+
+## Tools Used
+
+Python  
+Pandas  
+Jupyter Notebook  
+Power BI  
+
+---
+
+## Chris Van Niekerk
+
+Chris van Niekerk  
+MS Data Science – University of Virginia
